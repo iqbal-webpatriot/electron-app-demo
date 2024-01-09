@@ -32,4 +32,16 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          owner: "iqbal-webpatriot",
+          name: "electron-app-demo"
+        },
+        draft:true
+      }
+    }
+  ]
 };
