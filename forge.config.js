@@ -40,7 +40,8 @@ module.exports = {
           owner: "iqbal-webpatriot",
           name: "electron-app-demo"
         },
-        prerelease: true
+        prerelease: false,
+        draft: true
       }
     }
   ]
